@@ -127,7 +127,8 @@ def laydulieu():
             cap.release()
             cv2.destroyAllWindows()
             break;
-
+    edit_id.delete(0,"end")
+    edit_name.delete(0,"end")
     
 
 win = tk.Tk()
@@ -172,4 +173,6 @@ btnhandien.grid(column =2, row =4)
 bttrain.place(x=200,y=200)
 btnhandien.place(x=350,y=200)
 btlaydulieu.place(x=50,y=200)
+
+
 win.mainloop()
