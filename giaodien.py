@@ -105,7 +105,7 @@ def laydulieu():
     #id = input('Enter user id: ')
     #name = input('Enter name: ')
     id = int1.get()
-    name =  str1.get()
+    name ="'"+str1.get()+"'"
     insertOrUpdate(id, name)
     sample_number = 0
     while True:
